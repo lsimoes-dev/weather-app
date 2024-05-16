@@ -1,0 +1,26 @@
+.error-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.error-modal__content {
+    position: relative;
+    background-color: #001764;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.error-modal__actions {
+    position: relative;
+    top: 10px;
+    width: 75px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #181818;
+}
